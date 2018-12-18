@@ -53,7 +53,10 @@ Page({
       data: {},
       success: res => {
         console.log('[云函数] [login] user openid: ', res.result.openid)
-        app.globalData.openid = res.result.openid
+        app.globalData.openid = res.result.openid;
+        console.log(res.result)
+        app.globalData.unionid = res.result.unionid
+        app.globalData.appid = res.result.appid
         wx.navigateTo({
           url: '../userConsole/userConsole',
         })

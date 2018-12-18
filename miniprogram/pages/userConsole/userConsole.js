@@ -2,12 +2,16 @@
 Page({
 
   data: {
-    openid: ''
+    openid: '',
+    unionid:'',
+    appid:''
   },
 
   onLoad: function (options) {
     this.setData({
-      openid: getApp().globalData.openid
+      openid: getApp().globalData.openid,
+      unionid: getApp().globalData.unionid,
+      appid:getApp().globalData.appid
     })
   }
 })

@@ -8,6 +8,12 @@
     <view class="list-item" bindtap="testCgi">
       <text class="request-text">{{openid}}</text>
     </view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{appid}}</text>
+    </view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{unionid}}</text>
+    </view>
   </view>
 
   <!-- 云开发用户管理指引 -->
