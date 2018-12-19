@@ -39,5 +39,11 @@
       <text>快速新建云函数</text>
     </navigator>
   </view>
+  <!-- 聊天室 -->
+  <view class="uploader">
+    <navigator url="../roomIn/roomIn" open-type="navigate" class="uploader-text">
+      <text>聊天室</text>
+    </navigator>
+  </view>
 
 </view>
